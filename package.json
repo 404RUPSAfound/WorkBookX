@@ -1,0 +1,26 @@
+{
+  "name": "workbookx-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Explainable Spreadsheet Change Intelligence & Business Impact Analysis Platform",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "test:server": "cd server && npm test",
+    "test:client": "cd client && npm test",
+    "test": "cd server && npm test",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "excel",
+    "spreadsheet",
+    "diff",
+    "formula-analysis",
+    "dependency-graph",
+    "risk-engine",
+    "audit-report"
+  ],
+  "author": "WorkbookX Team",
+  "license": "MIT"
+}
